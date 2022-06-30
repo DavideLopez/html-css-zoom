@@ -61,15 +61,18 @@ main{
  .view > a{
     padding: 5px;
     font-size: 12px;
-    background-color: rgba(5,5,5, 50%);
+    font-weight: bold;
+    background-color: #4F4F4F;
     border-radius: 8px;
     color: white;
+    margin-right: 5px;
  }
+
 
    /* footer */
 .footer{
     height: 84px;
-    background-color: #333;
+    background-color: #222222;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -78,7 +81,7 @@ main{
 .left-footer{
     display: flex;
     margin-left: 10px;
-    padding-top: 5px;
+    padding-top: 15px;
 }
 
 .wrapper{
@@ -87,7 +90,7 @@ main{
 
 .icon a{
     color: white;
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .angle{
@@ -104,8 +107,12 @@ main{
 
 .center-footer{
     display: flex;
-    gap: 10px;
-    padding-top: 5px;
+    gap: 15px;
+    padding-top: 15px;
+}
+
+.greenshare i{
+    color: lime;
 }
 
 .right-footer{
@@ -113,5 +120,8 @@ main{
     margin: 0;
     line-height: 84px;
     font-size: 14px;
-    margin-right: 10px;
+    font-weight: bold;
+    background-color: #4A4A4A;
+    padding-left: 20px;
+    padding-right: 20px;
 }
