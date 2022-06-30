@@ -13,7 +13,7 @@ body{
 main{
     flex-grow: 1;
     flex-basis: 1px;
-    /* background-color: aqua; */
+    background-color: black;
 }
 
 /* img{
@@ -60,8 +60,8 @@ main{
 
  .view > a{
     padding: 5px;
-    font-size: 14px;
-    background-color: rgba(3,3,3, 50%);
+    font-size: 12px;
+    background-color: rgba(5,5,5, 50%);
     border-radius: 8px;
     color: white;
  }
@@ -75,13 +75,17 @@ main{
     justify-content: space-between;
 }
 
+.left-footer{
+    display: flex;
+}
+
 .footer a{
     color: white;
     font-size: 35px;
 }
 
 .angle{
-    display: flex;
+    font-size: 14px;
 }
 
 .footer a .icon{
