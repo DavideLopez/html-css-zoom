@@ -16,10 +16,49 @@ main{
     background-color: aqua;
 }
 
+/* img{
+    max-width: 100%;
+} */
+
+    /* fine regolette generali */
+   
+    /* sezione utenti */
+
+.users{
+    display: flex;
+    padding: 80px 80px 20px;
+    flex-wrap: wrap;
+    gap:10px;
+}    
+
+.thumbnails{
+    position: relative;
+    width: 240px;
+    height: 140px;
+}
+
+.userinfo{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0, 50%);
+    padding: 5px;
+    font-size: 14px;
+    color: white;
+}
+
+
+
+   /* footer */
 .footer{
     height: 84px;
     background-color: #333;
     color: white;
     display: flex;
     justify-content: space-between;
+}
+
+.endmeeting{
+    color: red;
+    text-decoration: none;
 }
