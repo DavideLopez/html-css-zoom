@@ -79,13 +79,16 @@ main{
     display: flex;
 }
 
-.footer a{
+.icon a{
     color: white;
     font-size: 35px;
 }
 
 .angle{
     font-size: 14px;
+    color: white;
+    line-height: 42px;
+    padding: 10px;
 }
 
 .footer a .icon{
